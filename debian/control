@@ -1,11 +1,11 @@
-Source: foo_inc
+Source: fooinc
 Section: python
 Priority: extra
 Maintainer: Brendan Cox <brendan.cox@vertexone.net>
 Build-Depends: debhelper (>= 9), python, dh-virtualenv (>= 0.8)
 Standards-Version: 3.9.5
 
-Package: foo_inc
+Package: fooinc
 Architecture: any
 Pre-Depends: dpkg (>= 1.16.1), python2.7 | python2.6, ${misc:Pre-Depends}
 Depends: ${misc:Depends}

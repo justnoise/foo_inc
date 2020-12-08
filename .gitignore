@@ -178,3 +178,11 @@ API
 Training
 Blog
 About
+
+# Debian packaging
+debian/.debhelper/
+debian/files
+debian/fooinc.postinst.debhelper
+debian/fooinc.prerm.debhelper
+debian/fooinc.substvars
+debian/fooinc/
